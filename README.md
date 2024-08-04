@@ -15,7 +15,18 @@ This project explores the effectiveness of different topic modeling and sentimen
 - **GPT-4 Performance:** GPT-4 produced well-defined themes and effectively segmented sentiments, outperforming the traditional models in interpretability and coherence.
 
 ## Visuals
-![Visual Representation of Key Findings](path_to_visual_image)
+| Theme                   | GPT-4o Positives | GPT-4o Negatives | LDA Positives | LDA Negatives | BERTopic Positives | BERTopic Negatives |
+|-------------------------|-----------------|-----------------|--------------|--------------|-------------------|-------------------|
+| Battery & Charging      | 1050             | 2559            | 891          | 1817         | 7953              | 14478             |
+| Heating Issues          | 110              | 395             | 2299         | 578          | 4771              | 6803              |
+| Hardware Issues         | 280              | 770             | 1173         | 1702         | 519               | 667               |
+| Network and Software    | 168              | 889             | 2037         | 1648         |                   |                   |
+| Camera and Photos       | 1219             | 1634            | 751          | 1083         | 3035              | 6034              |
+| Performance             | 600              | 773             | 6447         | 5203         | 2545              | 1044              |
+| Value for Money         | 832              | 390             | 6991         | 6223         | 8450              | 6078              |
+| Customer Service        | 108              | 666             | 2009         | 2915         |                   |                   |
+| Design and Aesthetics   | 111              | 151             | 1587         | 536          | 5905              | 5034              |
+
 
 ## Conclusion
 This study contributes to current research in topic modeling and sentiment analysis, demonstrating the potential of integrating traditional models with advanced large-language models. The findings highlight the importance of using NLP techniques to extract and analyze customer feedback, providing valuable insights for product improvement.
